@@ -10,7 +10,7 @@ const Header = ({ isAuthenticated = false }) => {
 <IoFastFoodOutline /> 
 </motion.div>
 <div>
-<Link to="/">Home</Link>
+<Link to="/home">Home</Link>
 <Link to="/contact">Contact</Link> 
 <Link to="/about">About</Link> 
 <Link to="/cart">
