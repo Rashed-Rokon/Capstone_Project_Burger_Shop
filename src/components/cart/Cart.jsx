@@ -44,7 +44,7 @@ const Cart = () => {
         />
 
         <CartItem
-          title={"Cheese Burger with French Fries"}
+          title={"Cheese Burger Meal"}
           img={burger3}
           value={0}
           increment={() => increment(3)}
@@ -55,19 +55,19 @@ const Cart = () => {
         <article>
           <div>
             <h4>Sub Total</h4>
-            <p>₹{2000}</p>
+            <p>€{14}</p>
           </div>
           <div>
             <h4>Tax</h4>
-            <p>₹{2000 * 0.18}</p>
+            <p>€{14 * 0.15}</p>
           </div>
           <div>
             <h4>Shipping Charges</h4>
-            <p>₹{200}</p>
+            <p>€{4}</p>
           </div>{" "}
           <div>
             <h4>Total</h4>
-            <p>₹{2000 + 2000 * 0.18 + 200}</p>
+            <p>€{14 + 14 * 0.15 + 4}</p>
           </div>
           <Link to="/shipping">Checkout</Link>
         </article>

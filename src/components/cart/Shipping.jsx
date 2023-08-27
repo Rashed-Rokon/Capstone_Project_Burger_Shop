@@ -10,7 +10,7 @@ const Shipping = () => {
         <h1>Shipping Details</h1>
         <form>
           <div>
-            <label>H.No.</label>
+            <label>House No.</label>
             <input type="text" placeholder="Enter House No." />
           </div>
           <div>
@@ -45,8 +45,8 @@ const Shipping = () => {
           </div>
 
           <div>
-            <label>Pin Code</label>
-            <input type="number" placeholder="Enter Pincode" />
+            <label>Post Code</label>
+            <input type="number" placeholder="Enter postcode" />
           </div>
 
           {/* CONTACT CODE ADDED*/}     

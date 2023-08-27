@@ -27,7 +27,7 @@ const MyOrders = () => {
                 <td>#1010</td> 
                 <td>Processing</td> 
                 <td>23</td> 
-                <td>₹{2132}</td> 
+                <td>€{20.1}</td> 
                 <td>COD</td>
                 <td>
                   <Link to="/OrderDetails">
